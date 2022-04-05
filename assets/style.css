@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+:root {
+    --cinza:  #202026;
+    --azul: #00c0af;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #202026;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+img, button {
+    cursor: pointer;
+}
+
+#logo img {
+    width: 70px;
+}
+
+nav img {
+    width: 30px;
+    margin-right: 18px;
+    margin-top: 5px;
+}
+
+#container {
+    min-width: 280px;    
+    padding: 0px 45px;
+    height: calc(100vh - 122px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content h1 {
+    color: var(--azul);
+    font-size: 45px;
+    margin-top: 40px;
+}
+
+#main-content p, span {
+    color: white;
+}
+
+span {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 70px;
+    padding: 7px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: var(--azul);
+    color: white;
+    padding: 22px;
+    width: 40%;
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: white;
+    color: var(--azul);
+}
+
+#img-tenis {
+    width: 50%;
+    height: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
